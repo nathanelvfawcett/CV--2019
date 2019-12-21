@@ -1,8 +1,10 @@
 body{
+    font-family: serif;
     text-align: center;
     background-color: #1d1919;
 }
 h1{
+  font-family: serif;
   padding-top: 20px;
   color: #b2fcff;
   font-size: 3rem;
@@ -32,10 +34,29 @@ th, td{
       border: 1px;
 }
 
+.navbar{
+  
+  padding: 0 0 4.5rem;
+}
 
-img {
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+.nav-item{
+  padding-left: 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+
+
+.myImage {
   width: 200px;
   border-radius:50%;
+  border: 3px solid #b2fcff;
 }
 
 a{
